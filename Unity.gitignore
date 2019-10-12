@@ -2,3 +2,8 @@ Model/Library/
 Model/Temp/
 Model/.vs/
 Model/*.csproj/
+
+EasyMotionRecorder/Library/
+EasyMotionRecorder/Temp/
+EasyMotionRecorder/.vs/
+EasyMotionRecorder/*.csproj/
