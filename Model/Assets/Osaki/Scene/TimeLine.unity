@@ -596,6 +596,31 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 184990037}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &223423260 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1661895549659126, guid: c4149b91aca61a34582ab2fd2ad1742b,
+    type: 3}
+  m_PrefabInstance: {fileID: 341083346}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &223423261
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 223423260}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &321755690
 GameObject:
   m_ObjectHideFlags: 0
@@ -836,6 +861,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
         type: 3}
+      propertyPath: m_BlendShapeWeights.Array.size
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
+        type: 3}
       propertyPath: m_AABB.m_Center.x
       value: 0
       objectReference: {fileID: 0}
@@ -863,6 +893,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_AABB.m_Extent.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[31]
+      value: 0.7
       objectReference: {fileID: 0}
     - target: {fileID: 137239218420856842, guid: c4149b91aca61a34582ab2fd2ad1742b,
         type: 3}
@@ -2670,6 +2705,8 @@ PlayableDirector:
     value: {fileID: 170193369}
   - key: {fileID: 114484562875285846, guid: 810da08194e77ea40b7b7921d11b9d51, type: 2}
     value: {fileID: 133677199}
+  - key: {fileID: 114659171118754434, guid: 810da08194e77ea40b7b7921d11b9d51, type: 2}
+    value: {fileID: 223423261}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1303596921
