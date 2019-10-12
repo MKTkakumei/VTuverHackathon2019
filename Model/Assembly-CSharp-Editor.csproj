@@ -61,6 +61,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\50種シェーダー\_BasicShader\Editor\BasicShaderMaterialEditor.cs" />
+    <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\エッジ検出シェーダー\Kino\Contour\Editor\ContourEditor.cs" />
+    <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\ソナー\SonarFx\Editor\SonarFxEditor.cs" />
+    <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\フォグ\Editor\PackageTool.cs" />
+    <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\フォグ\Kino\Fog\Editor\FogEditor.cs" />
     <Compile Include="Assets\VRM\DepthFirstScheduler\Editor\Tests\DepthFirstScheduler.cs" />
     <Compile Include="Assets\VRM\MToon\MToon\Editor\EditorUtils.cs" />
     <Compile Include="Assets\VRM\MToon\MToon\Editor\MToonInspector.cs" />
