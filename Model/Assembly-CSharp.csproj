@@ -65,7 +65,7 @@
     <Compile Include="Assets\DynamicBone\Scripts\DynamicBoneCollider.cs" />
     <Compile Include="Assets\DynamicBone\Scripts\DynamicBoneColliderBase.cs" />
     <Compile Include="Assets\DynamicBone\Scripts\DynamicBonePlaneCollider.cs" />
-    <Compile Include="Assets\Kikukawa\Animset.cs" />
+    <Compile Include="Assets\Kikukawa\Script\Animset.cs" />
     <Compile Include="Assets\VRM\DepthFirstScheduler\Functor.cs" />
     <Compile Include="Assets\VRM\DepthFirstScheduler\IEnumeratorExtensions.cs" />
     <Compile Include="Assets\VRM\DepthFirstScheduler\LockQueue.cs" />
