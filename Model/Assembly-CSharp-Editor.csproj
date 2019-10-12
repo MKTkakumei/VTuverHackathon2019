@@ -61,6 +61,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\arktoon Shaders\Editor\ArktoonInspector.cs" />
+    <Compile Include="Assets\arktoon Shaders\Editor\ArktoonManager.cs" />
+    <Compile Include="Assets\arktoon Shaders\Editor\ArktoonMigrator.cs" />
     <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\50種シェーダー\_BasicShader\Editor\BasicShaderMaterialEditor.cs" />
     <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\エッジ検出シェーダー\Kino\Contour\Editor\ContourEditor.cs" />
     <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\ソナー\SonarFx\Editor\SonarFxEditor.cs" />
