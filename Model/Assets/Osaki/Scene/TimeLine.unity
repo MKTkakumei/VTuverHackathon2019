@@ -1465,6 +1465,7 @@ GameObject:
   - component: {fileID: 366396157}
   - component: {fileID: 366396156}
   - component: {fileID: 366396155}
+  - component: {fileID: 366396158}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1502,7 +1503,7 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.01
   far clip plane: 1000
   field of view: 60
   orthographic: 0
@@ -1536,6 +1537,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &366396158
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366396154}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &386666380
 GameObject:
   m_ObjectHideFlags: 0
@@ -2707,6 +2727,8 @@ PlayableDirector:
     value: {fileID: 133677199}
   - key: {fileID: 114659171118754434, guid: 810da08194e77ea40b7b7921d11b9d51, type: 2}
     value: {fileID: 223423261}
+  - key: {fileID: 114231937778445812, guid: 810da08194e77ea40b7b7921d11b9d51, type: 2}
+    value: {fileID: 366396158}
   m_ExposedReferences:
     m_References: []
 --- !u!4 &1303596921
