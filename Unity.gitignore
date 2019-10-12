@@ -7,3 +7,8 @@ EasyMotionRecorder/Library/
 EasyMotionRecorder/Temp/
 EasyMotionRecorder/.vs/
 EasyMotionRecorder/*.csproj/
+
+TestKikukawa/Library/
+TestKikukawa/Temp/
+TestKikukawa/.vs/
+TestKikukawa/*.csproj/
