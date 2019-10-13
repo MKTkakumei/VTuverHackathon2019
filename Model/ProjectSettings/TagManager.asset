@@ -13,7 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - Interactive
+  - Player
+  - PlayerLocal
+  - Environment
+  - UiMenu
   - 
   - 
   - 
@@ -23,13 +27,9 @@ TagManager:
   - 
   - 
   - 
+  - Quad
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - MMizu
   - 
   - 
   - 
