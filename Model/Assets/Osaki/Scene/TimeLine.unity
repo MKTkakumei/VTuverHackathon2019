@@ -1092,6 +1092,31 @@ PrefabInstance:
       propertyPath: m_BlendShapeWeights.Array.data[31]
       value: 100
       objectReference: {fileID: 0}
+    - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[26]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[19]
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[11]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[9]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 137757715986603700, guid: c4149b91aca61a34582ab2fd2ad1742b,
+        type: 3}
+      propertyPath: m_BlendShapeWeights.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 137239218420856842, guid: c4149b91aca61a34582ab2fd2ad1742b,
         type: 3}
       propertyPath: m_AABB.m_Center.x
@@ -2503,6 +2528,7 @@ GameObject:
   - component: {fileID: 366396156}
   - component: {fileID: 366396155}
   - component: {fileID: 366396158}
+  - component: {fileID: 366396159}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -2593,6 +2619,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &366396159
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 366396154}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4ca210f3d5e7a4a9fd2bf33ef27df6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  obj: {fileID: 1303596918}
 --- !u!1 &386666380
 GameObject:
   m_ObjectHideFlags: 0

@@ -146,6 +146,7 @@
     <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\ライトリーク\LightLeaks\LightLeaks.cs" />
     <Compile Include="Assets\Kikukawa\AddAsset\■シェーダー\水面波紋シェーダー\WaterSimulation.cs" />
     <Compile Include="Assets\Kikukawa\Script\Animset.cs" />
+    <Compile Include="Assets\Kikukawa\Set.cs" />
     <Compile Include="Assets\VRM\DepthFirstScheduler\Functor.cs" />
     <Compile Include="Assets\VRM\DepthFirstScheduler\IEnumeratorExtensions.cs" />
     <Compile Include="Assets\VRM\DepthFirstScheduler\LockQueue.cs" />
