@@ -528,6 +528,7 @@
      <None Include="Assets\Kikukawa\AddAsset\■シェーダー\エフェクト28選\Shaders\CircularDupulication.shader" />
      <None Include="Assets\PostProcessing\Editor Resources\UI\Trackball.shader" />
      <None Include="Assets\arktoon Shaders\Shaders\cginc\arkludeOther.cginc" />
+     <None Include="Assets\sky5X\README.txt" />
      <None Include="Assets\Kikukawa\AddAsset\■シェーダー\エフェクト28選\Shaders\MoneyFilter.shader" />
      <None Include="Assets\Kikukawa\AddAsset\■シェーダー\50種シェーダー\Dissolve\Dissolve.shader" />
      <None Include="Assets\Kikukawa\AddAsset\雲\Shaders\2DClouds.shader" />

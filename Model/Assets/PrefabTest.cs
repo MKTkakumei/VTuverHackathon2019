@@ -17,18 +17,23 @@ public class PrefabTest : MonoBehaviour
     // Use this for initialization
     void Start()
     {
-        // CubeプレハブをGameObject型で取得
-        GameObject obj = (GameObject)Resources.Load("Cubes");
-        // Cubeプレハブを元に、インスタンスを生成、
-        for (int i = 0; i < cubes_num; ++i)
+
+        for (int j = 2; j <= 9; j++)
         {
-            float x = Random.Range(max_x, min_x);
-            float y = Random.Range(max_y, min_y);
-            float z = Random.Range(max_z, min_z);
-            Vector3 axis = new Vector3(Random.Range(1, 0), Random.Range(1, 0), Random.Range(1, 0)); // 回転軸
-            float angle = Random.Range(180, 0); // 回転の角度
-            Quaternion q = Quaternion.AngleAxis(angle, axis);
-            Instantiate(obj, new Vector3(x, y, z), q);
+            string name = "Cube (" + j.ToString() + ")";
+            // CubeプレハブをGameObject型で取得
+            GameObject obj = (GameObject)Resources.Load(name);
+            // Cubeプレハブを元に、インスタンスを生成、
+            for (int i = 0; i < cubes_num; ++i)
+            {
+                float x = Random.Range(max_x, min_x);
+                float y = Random.Range(max_y, min_y);
+                float z = Random.Range(max_z, min_z);
+                Vector3 axis = new Vector3(Random.Range(1, 0), Random.Range(1, 0), Random.Range(1, 0)); // 回転軸
+                float angle = Random.Range(180, 0); // 回転の角度
+                Quaternion q = Quaternion.AngleAxis(angle, axis);
+                Instantiate(obj, new Vector3(x, y, z), q);
+            }
         }
     }
 
