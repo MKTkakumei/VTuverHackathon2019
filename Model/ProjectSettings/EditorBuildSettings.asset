@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Osaki/Scene/TimeLine.unity
     guid: 288a66d4aa256224caa83f674675d6d0
+  - enabled: 1
+    path: Assets/Kikukawa/Scene/Kikukawa.unity
+    guid: 0f048fc88f27893498f9413e21da2091
   m_configObjects: {}
